@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.good {
+    color: mediumseagreen;
+    text-shadow: 2px 2px 4px mediumseagreen;
+}
+
+.bad {
+    color: crimson;
+    text-shadow: 2px 2px 4px crimson;
+}
+
+p {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.two {
+    text-decoration-line: line-through;
+    text-decoration-color: crimson;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1.2px;
+    /* same as above */
+    /* text-decoration: line-through crimson solid 1.2px; */
+    text-transform: capitalize;
+}
+
+.three {
+    text-decoration-line: overline;
+    text-decoration-color: lightseagreen;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2px;
+    text-transform: uppercase;
+}
+
+.four {
+    text-decoration-line: underline;
+    text-decoration-color: dodgerblue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 15%;
+    text-transform: lowercase;
+}
+
+.five {
+    text-decoration-line: overline underline;
+    text-decoration-color: palevioletred;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
+    text-transform: capitalize;
+}
+
+.six {
+    text-align: left;
+    text-indent: 50px;
+    line-height: 1.6em;
+    word-spacing: 2px;
+    white-space: nowrap;
+    font-style: italic;
+}

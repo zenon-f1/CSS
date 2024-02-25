@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    padding: 50px;
+    margin: 50px;
+    background-color: cadetblue;
+    /* total width = 2*padding + 2*margin + 2*border + width */
+    /* total height = 2*padding + 2*margin + 2*border + height */
+}

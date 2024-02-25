@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+P {
+    margin: 2rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+}
+
+a:visited {
+    color: blueviolet;
+    background-color: rgb(226, 43, 180);
+}
+
+a:active {
+    color: green;
+    background-color: aqua;
+}
+
+a:hover {
+    background-color: lightseagreen;
+    color: black;
+}
+
+span {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}

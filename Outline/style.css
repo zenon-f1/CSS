@@ -1,0 +1,32 @@
+/* outline - line drawn outside the border */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 10px;
+    border: 5px solid black;
+    padding: 5px;
+    outline: 5px solid crimson;
+    outline-offset: 3px;
+}
+
+.para {
+    outline-style: dotted;
+    margin-top: 30px;
+    outline-color: dodgerblue;
+}
+
+.outset {
+    outline-style: outset;
+    margin-top: 30px;
+    outline-color: green;
+}
+
+.double {
+    outline-style: double;
+    margin-top: 30px;
+    outline-color: palevioletred;
+}
