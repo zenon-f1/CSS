@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+table {
+    padding: 5px;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+caption {
+    margin-bottom: 7px;
+}
+
+table,
+tr,
+th,
+td {
+    border-radius: 4px;
+    border: 1px solid #222;
+}
+
+td,
+th,
+tr {
+    padding: 5px 15px;
+
+}
+
+th {
+    font-size: 1.2rem;
+    text-align: center;
+    height: 40px;
+}
+
+.table-2 {
+    border: 2px solid #222;
+}
+
+.table-2 tr,
+th,
+td {
+    border: none;
+}
+
+.table-3 td {
+    height: 40px;
+    vertical-align: bottom;
+}

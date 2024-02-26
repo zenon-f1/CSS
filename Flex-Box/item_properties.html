@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container{
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            /* properties for container  */
+            display: flex; /* initialize flex container */
+            flex-direction: row;
+
+        }
+        .item{
+            background-color: tomato;
+            border: 2px solid green;
+            margin: 10px;
+            padding: 4px;
+            width: 100px;
+            height: 100px;
+        }
+        #item-1{
+            order: 2; 
+            flex-grow: 3;
+        }
+        #item-2{
+            order: 4;
+            flex-grow: 2;
+            flex-shrink: 3; /* shrink quickly */
+            /* when the flex direction is set to row, flex-basis will control width  */
+            /* when the flex direction is set to column, flex-basis will control height  */
+            flex-basis: 150px;
+
+        }
+        #item-3{
+            order: 6; /* big one will go to the end */
+            flex-grow: 0;
+            flex: 2 2 344px; /* grow shrink basis */
+            align-self: flex-start;
+            align-self: flex-end;
+            align-self: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This is a Heading</h1>
+    <div class="container">
+        <div class="item" id="item-1">First Box</div>
+        <div class="item" id="item-2">Second Box</div>
+        <div class="item" id="item-3">Third Box</div>
+    </div>
+</body>
+</html>

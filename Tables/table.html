@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>table</title>
+        <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            caption {
+                margin-bottom: 5px;
+            }
+            table {
+                width: 50%;
+                padding: 5px;
+                border-collapse: collapse;
+                margin: auto;
+            }
+            td,
+            th {
+                border-bottom: 2px solid black;
+                padding: 5px 15px;
+            }
+            th {
+                background-color: lightseagreen;
+                color: #fff;
+            }
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            tr:hover {
+                background-color: dodgerblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="overflow-x: auto;">
+            <table>
+                <caption>
+                    Savings
+                </caption>
+                <tr class="heading">
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Ashok</td>
+                <td>19</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>Karthik</td>
+                <td>19</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>Keshav</td>
+                <td>25</td>
+                <td>$700</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>21</td>
+                <td>$400</td>
+            </tr>
+            <tr>
+                <td>Kemar</td>
+                <td>24</td>
+                <td>$800</td>
+            </tr>
+        </table>
+    </div>
+    </body>
+</html>

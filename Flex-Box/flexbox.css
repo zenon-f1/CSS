@@ -1,0 +1,36 @@
+html,body{
+    margin: 0;
+    padding: 0;
+         
+}
+.container{
+    background-color: beige;
+    border: 5px solid purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start; /* according to flex direction */
+    align-items: start; /* according to cross axis */
+    height: 100vh;
+    /*!wrap ke baad space handle karne ke liye */
+    /* align-content: start; */
+    margin: 2px;
+    padding: 2px;
+
+}
+.item{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+.item-1{
+    background-color: aqua;
+    
+}
+.item-2{
+    background-color: purple;
+    
+}
+.item-3{
+    background-color: brown;
+
+}
